@@ -7,7 +7,7 @@ document.getElementById("submit-btn").addEventListener('click',function(){
     const inputTextOfPassword = inputFiledOfPassword.value;
     
     if(inputTextOfEmail=="abc@gmail.com" && inputTextOfPassword=='digontha'){
-    window.location.href = 'index2.html';
+    window.location.href = './index2.html';
     }else{
         alert("invalid user")
     }
